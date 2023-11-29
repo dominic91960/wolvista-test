@@ -1,0 +1,46 @@
+/* Home page text centering*/
+
+.text-centering-custom {
+  text-align: center;
+}
+
+/* Home page text*/
+.h1-title-custom {
+  margin-bottom: 0 !important;
+}
+
+.subscription-margin-custom {
+  margin-bottom: 30px !important;
+}
+
+.custom-color-white {
+  color: white !important;
+}
+
+/* mobile price section starts here */
+.mobile-price {
+  margin: 0;
+  font-size: 50px;
+}
+
+.mobile-center {
+  text-align: center;
+}
+
+.mobile-ul {
+  list-style-type: none;
+}
+
+.mobile-first {
+  margin-bottom: 30px;
+}
+
+.prizing-center {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-text li {
+  text-align: left; /* Left-align the text within the paragraph */
+}
+
