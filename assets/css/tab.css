@@ -1,9 +1,14 @@
 /* Style for tabs */
 .customtab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  /* border: 1px solid #ccc; */
+  /* background-color: #f1f1f1; */
   margin-top: 20px;
+}
+
+.customtab button:hover {
+  background-color: #059dff;
+  border-radius: 7px;
 }
 
 /* Style for tab buttons */
@@ -15,17 +20,30 @@
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  color: #f2faff;
 }
 
 /* Change background color of active tab button */
 .customtab button.active {
-  background-color: #ccc;
+  background-color: #059dff;
+  border-radius: 7px;
 }
 
 /* Style for tab content */
 .tabcontent {
   display: none;
-  padding: 0px 0px;
-  border: 1px solid #ccc;
+  padding: 50px 0px;
+  /* border: 1px solid #ccc; */
   border-top: none;
+}
+
+/* Style for tabs / Packages */
+.packages-control {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.tablinks {
+  margin-right: 10px;
 }
