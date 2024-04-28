@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/transition-css.css" />
     <link rel="stylesheet" href="assets/css/bookcall.css" />
     <link rel="stylesheet" href="assets/css/tab.css" />
+    <link rel="stylesheet" href="assets/css/tab-mobile.css" />
+    <link rel="stylesheet" href="assets/css/mobileAccordion1.css" />
 
     <script defer src="assets/js/portfoliophoto.js"></script>
     <script defer src="assets/js/app.js"></script>
@@ -1914,7 +1916,7 @@
           </div>
 
           <!-- CUSTOM TAB SECTION STARTS HERE-->
-          <div>
+          <div class="desktopVersionPrice">
             <div class="customtab packages-control">
               <div>
                 <button
@@ -3351,609 +3353,504 @@
           <!-- End Section Title  -->
 
           <!-- Pricing section for mobile - starts here -->
-          <div class="rainbow-company-mission-are">
-            <div class="container">
-              <div class="row row--30">
-                <div class="col-md-6 d-block d-md-none mobile-interface">
-                  <div
-                    class="rainbow-accordion-style accordion sal-animate"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                  >
-                    <div class="accordion" id="accordionExamplea">
-                      <div class="accordion-item card">
-                        <h2
-                          class="accordion-header card-header"
-                          id="headingOne"
-                        >
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="false"
-                            aria-controls="collapseOne"
-                          >
-                            Kick Starter
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseOne"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExamplea"
-                        >
-                          <div class="accordion-body card-body">
-                            <div class="pricing-table-inner">
-                              <div
-                                class="pricing-header mobile-center mobile-first"
-                              >
-                                <h4 class="mobile-price">$59</h4>
-                                <span class="subtitle">USD Per Month</span>
-                                <!-- <div class="pricing"> -->
-                                <!-- <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">59</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div> -->
-                              </div>
-                              <div class="pricing-body">
-                                <ul class="list-style--1 mobile-ul">
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    2 Digital Graphic
-                                  </li>
-                                  <li>
-                                    <i class="">
-                                      <img
-                                        src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                        alt="Corporate Template"
-                                        width="15px"
-                                    /></i>
-                                    4 Changers Per Graphic
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Artwork Files
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Upto 1 Day Turn Around Time(24 Hours)
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    2 Active Requests
-                                  </li>
 
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Stock Images
-                                  </li>
-                                </ul>
+          <div class="mobileVersionPrice"><div class="customtab1 packages-control">
+            <button class="customtablink1 active" onclick="openTab2(event, 'Tab12')">Unlimited Graphics</button>
+            <button class="customtablink1" onclick="openTab2(event, 'Tab22')">Logo & Branding</button>
+            <button class="customtablink1" onclick="openTab2(event, 'Tab32')">Web Design</button>
+          </div>
+          
+          
+          <div id="Tab12" class="customtabcontent1" style="display: block;">
+            
+                     <div class="unique-accordion-item">
+            <div class="unique-accordion-header">Kick Starter</div>
+            <div class="unique-accordion-content">
+              <div class="pricing-table-inner">
+                <div class="pricing-header mobile-center mobile-first">
+                  <div class="price-line"></div>
+                  <h4 class="mobile-price">$59</h4>
+                  <span class="subtitle">USD Per Month</span>
+                  <!-- <div class="pricing"> -->
+                  <!-- <div class="price-wrapper">
+                                <span class="currency">$</span><span class="price">59</span>
                               </div>
-                              <div class="pricing-footer mobile-center">
-                                <a
-                                  class="btn-default btn-border"
-                                  href="https://dashboard.wolvista.com/"
-                                  >Purchase Now</a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                              <span class="subtitle">USD Per Month</span>
+                            </div> -->
+                </div>
+                <div class="pricing-body">
+                  <ul class="list-style--1 mobile-ul">
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      2 Digital Graphic
+                    </li>
+                    <li>
+                      <i class="">
+                        <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                      4 Changers Per Graphic
+                    </li>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      Free Artwork Files
+                    </li>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      Upto 1 Day Turn Around Time(24 Hours)
+                    </li>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      2 Active Requests
+                    </li>
 
-                      <div class="accordion-item card">
-                        <h2
-                          class="accordion-header card-header"
-                          id="headingTwo"
-                        >
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo"
-                            aria-expanded="false"
-                            aria-controls="collapseTwo"
-                          >
-                            Kick Starter Plus
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseTwo"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingTwo"
-                          data-bs-parent="#accordionExamplea"
-                        >
-                          <div class="accordion-body card-body">
-                            <div class="pricing-table-inner">
-                              <div
-                                class="pricing-header mobile-center mobile-first"
-                              >
-                                <h4 class="mobile-price">$99</h4>
-                                <span class="subtitle">USD Per Month</span>
-                                <!-- <div class="pricing"> -->
-                                <!-- <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">59</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div> -->
-                              </div>
-                              <!-- <div class="pricing-header">
-                                          <h4 class="title">Kick Starter Plus</h4>
-                                          <div class="pricing">
-                                            <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">99</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div>
-                                        </div> -->
-                              <div class="pricing-body">
-                                <ul class="list-style--1 mobile-ul">
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Social Branding
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    4 Digital Graphic Requests
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    4 Changes Per Digital Graphic Requests
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Artwork Files
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Upto 1 Day Turn Around Time(24 Hours)
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    2 Active Requests
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Stock Images
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="pricing-footer mobile-center">
-                                <a
-                                  class="btn-default btn-border"
-                                  href="https://dashboard.wolvista.com/"
-                                  >Purchase Now</a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item card">
-                        <h2
-                          class="accordion-header card-header"
-                          id="headingThree"
-                        >
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
-                            aria-expanded="false"
-                            aria-controls="collapseThree"
-                          >
-                            Graphics on Demand
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseThree"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingThree"
-                          data-bs-parent="#accordionExamplea"
-                        >
-                          <div class="accordion-body card-body">
-                            <div class="pricing-table-inner">
-                              <div
-                                class="pricing-header mobile-center mobile-first"
-                              >
-                                <h4 class="mobile-price">$1999</h4>
-                                <span class="subtitle">USD Per Month</span>
-                                <!-- <div class="pricing"> -->
-                                <!-- <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">59</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div> -->
-                              </div>
-                              <!-- <div class="pricing-header">
-                                          <h4 class="title">Graphics on Demand</h4>
-                                          <div class="pricing">
-                                            <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">1999</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div>
-                                        </div> -->
-                              <div class="pricing-body">
-                                <ul class="list-style--1 mobile-ul">
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Infinity Graphics
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Infinity Changes
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Artwork Files
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Upto 1 Day Turn Around Time(24 Hours)
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    6 Active Requests
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Basic Gifs Included
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Stock Images
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="pricing-footer mobile-center">
-                                <a
-                                  class="btn-default btn-border"
-                                  href="https://dashboard.wolvista.com/"
-                                  >Purchase Now</a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item card">
-                        <h2
-                          class="accordion-header card-header"
-                          id="headingFour"
-                        >
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour"
-                            aria-expanded="false"
-                            aria-controls="collapseFour"
-                          >
-                            Video on Demand
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseFour"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingFour"
-                          data-bs-parent="#accordionExamplea"
-                        >
-                          <div class="accordion-body card-body">
-                            <div class="pricing-table-inner">
-                              <div
-                                class="pricing-header mobile-center mobile-first"
-                              >
-                                <h4 class="mobile-price">$2499</h4>
-                                <span class="subtitle">USD Per Month</span>
-                                <!-- <div class="pricing"> -->
-                                <!-- <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">59</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div> -->
-                              </div>
-                              <!-- <div class="pricing-header">
-                                          <h4 class="title">Video on Demand</h4>
-                                          <div class="pricing">
-                                            <div class="price-wrapper">
-                                              <span class="currency">$</span><span class="price">2499</span>
-                                            </div>
-                                            <span class="subtitle">USD Per Month</span>
-                                          </div>
-                                        </div> -->
-                              <div class="pricing-body">
-                                <ul class="list-style--1 mobile-ul">
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Infinity Videos
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Infinity Changes
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Marketing Agency
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Artwork Files
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Up to 2 to 4 Day Turn Around Time
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    3 Active Requests
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Stock Images
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="pricing-footer mobile-center">
-                                <a
-                                  class="btn-default btn-border"
-                                  href="https://dashboard.wolvista.com/"
-                                  >Purchase Now</a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="accordion-item card">
-                        <h2
-                          class="accordion-header card-header"
-                          id="headingFive"
-                        >
-                          <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive"
-                            aria-expanded="false"
-                            aria-controls="collapseFive"
-                          >
-                            Advanced Plan
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseFive"
-                          class="accordion-collapse collapse"
-                          aria-labelledby="headingFive"
-                          data-bs-parent="#accordionExamplea"
-                        >
-                          <div class="accordion-body card-body">
-                            <div class="pricing-table-inner">
-                              <div
-                                class="pricing-header mobile-center mobile-first"
-                              >
-                                <h4 class="mobile-price">$3499</h4>
-                                <span class="subtitle">USD Per Month</span>
-                                <!-- <div class="pricing"> -->
-                                <!-- <div class="price-wrapper">
-                                            <span class="currency">$</span><span class="price">59</span>
-                                          </div>
-                                          <span class="subtitle">USD Per Month</span>
-                                        </div> -->
-                              </div>
-                              <!-- <div class="pricing-header">
-                                        <h4 class="title">Advanced Plan</h4>
-                                        <div class="pricing">
-                                          <div class="price-wrapper">
-                                            <span class="currency">$</span><span class="price">3499</span>
-                                          </div>
-                                          <span class="subtitle">USD Per Month</span>
-                                        </div>
-                                      </div> -->
-                              <div class="pricing-body">
-                                <ul class="list-style--1 mobile-ul">
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Infinity Graphics &amp; Videos
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Infinity Changes
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Artwork Files
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Up to 1 Day Turn Around Time for Graphics
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Up to 2 to 4 Day Turn Around Time for Videos
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    3 Active Video Requests
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    6 Active Graphic Requests
-                                  </li>
-
-                                  <li>
-                                    <img
-                                      src="assets/images/animated-icons/subscription-section/check-mark.png"
-                                      alt="Corporate Template"
-                                      width="15px"
-                                    />
-                                    Free Stock Images
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="pricing-footer mobile-center">
-                                <a
-                                  class="btn-default btn-border"
-                                  href="https://dashboard.wolvista.com/"
-                                  >Purchase Now</a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      Free Stock Images
+                    </li>
+                  </ul>
+                </div>
+                <div class="pricing-footer mobile-center">
+                  <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Pricing section for mobile - ends here -->
         </div>
+
+        <div class="unique-accordion-item">
+          <div class="unique-accordion-header">Kick Starter Plus</div>
+          <div class="unique-accordion-content">
+            <div class="pricing-table-inner">
+              <div class="pricing-header mobile-center mobile-first">
+                <div class="price-line"></div>
+                <h4 class="mobile-price">$99</h4>
+                <span class="subtitle">USD Per Month</span>
+                <!-- <div class="pricing"> -->
+                <!-- <div class="price-wrapper">
+                              <span class="currency">$</span><span class="price">59</span>
+                            </div>
+                            <span class="subtitle">USD Per Month</span>
+                          </div> -->
+              </div>
+              <div class="pricing-body">
+                <ul class="list-style--1 mobile-ul">
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Free Social Branding
+                  </li>
+                  <li>
+                    <i class="">
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                      4 Digital Graphic Requests
+                  </li>
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    4 Changes Per Requests
+                  </li>
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Free Artwork Files
+                  </li>
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Upto 1 Day Turn Around
+                    Time(24 Hours)
+                  </li>
+
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    2 Active Requests
+                  </li>
+
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Free Stock Images
+                  </li>
+                </ul>
+              </div>
+              <div class="pricing-footer mobile-center">
+                <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="unique-accordion-item">
+        <div class="unique-accordion-header">Graphics on Demand</div>
+        <div class="unique-accordion-content">
+          <div class="pricing-table-inner">
+            <div class="pricing-header mobile-center mobile-first">
+              <div class="price-line"></div>
+              <h4 class="mobile-price">$1999</h4>
+              <span class="subtitle">USD Per Month</span>
+              <!-- <div class="pricing"> -->
+              <!-- <div class="price-wrapper">
+                            <span class="currency">$</span><span class="price">59</span>
+                          </div>
+                          <span class="subtitle">USD Per Month</span>
+                        </div> -->
+            </div>
+            <div class="pricing-body">
+              <ul class="list-style--1 mobile-ul">
+                <li>
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                  Infinity Graphics
+                </li>
+                <li>
+                  <i class="">
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                    Infinity Changes
+                </li>
+                <li>
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                  Free Artwork Files
+                </li>
+                <li>
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                  Upto 1 Day Turn Around
+Time(24 Hours)
+                </li>
+                <li>
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                  6 Active Requests
+                </li>
+
+                <li>
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                  Basic Gifs Included
+                </li>
+
+                <li>
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                  Free Stock Images
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer mobile-center">
+              <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="unique-accordion-item">
+      <div class="unique-accordion-header">Video on Demand</div>
+      <div class="unique-accordion-content">
+        <div class="pricing-table-inner">
+          <div class="pricing-header mobile-center mobile-first">
+            <div class="price-line"></div>
+            <h4 class="mobile-price">$2499</h4>
+            <span class="subtitle">USD Per Month</span>
+            <!-- <div class="pricing"> -->
+            <!-- <div class="price-wrapper">
+                          <span class="currency">$</span><span class="price">59</span>
+                        </div>
+                        <span class="subtitle">USD Per Month</span>
+                      </div> -->
+          </div>
+          <div class="pricing-body">
+            <ul class="list-style--1 mobile-ul">
+              <li>
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                Infinity Videos
+              </li>
+              <li>
+                <i class="">
+                  <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                  Infinity Changes
+              </li>
+              <li>
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                Marketing Agency
+              </li>
+              <li>
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                Free Artwork Files
+              </li>
+              <li>
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                Up to 2 to 4 Day Turn
+Around Time
+              </li>
+
+              <li>
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                3 Active Requests
+              </li>
+
+              <li>
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                Free Stock Images
+              </li>
+            </ul>
+          </div>
+          <div class="pricing-footer mobile-center">
+            <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+          </div>
+        </div>
+      </div>
+  </div>
+        
+  <div class="unique-accordion-item">
+    <div class="unique-accordion-header">Advanced Plan</div>
+    <div class="unique-accordion-content">
+      <div class="pricing-table-inner">
+        <div class="pricing-header mobile-center mobile-first">
+          <div class="price-line"></div>
+          <h4 class="mobile-price">$3499</h4>
+          <span class="subtitle">USD Per Month</span>
+          <!-- <div class="pricing"> -->
+          <!-- <div class="price-wrapper">
+                        <span class="currency">$</span><span class="price">59</span>
+                      </div>
+                      <span class="subtitle">USD Per Month</span>
+                    </div> -->
+        </div>
+        <div class="pricing-body">
+          <ul class="list-style--1 mobile-ul">
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              Infinity Graphics & Videos
+            </li>
+            <li>
+              <i class="">
+                <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                Infinity Changes
+            </li>
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              Free Artwork Files
+            </li>
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              Up to 1 Day Turn Around
+Time for Graphics
+            </li>
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              Up to 2 to 4 Day Turn Around
+Time for Videos
+            </li>
+
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              3 Active Video Requests
+            </li>
+
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              6 Active Graphic Requests
+            </li>
+
+            <li>
+              <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+              Free Stock Images
+            </li>
+          </ul>
+        </div>
+        <div class="pricing-footer mobile-center">
+          <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+        </div>
+      </div>
+    </div>
+</div> 
+      
+
+          </div>
+          
+          <div id="Tab22" class="customtabcontent1">
+            <div class="unique-accordion-item">
+              <div class="unique-accordion-header">Starter</div>
+              <div class="unique-accordion-content">
+                <div class="pricing-table-inner">
+                  <div class="pricing-header mobile-center mobile-first">
+                    <div class="price-line"></div>
+                    <h4 class="mobile-price">$45</h4>
+                    <span class="subtitle">USD Per Month</span>
+                    <!-- <div class="pricing"> -->
+                    <!-- <div class="price-wrapper">
+                                  <span class="currency">$</span><span class="price">59</span>
+                                </div>
+                                <span class="subtitle">USD Per Month</span>
+                              </div> -->
+                  </div>
+                  <div class="pricing-body">
+                    <ul class="list-style--1 mobile-ul">
+                      <li>
+                        <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                        3 concept included
+                      </li>
+                      <li>
+                        <i class="">
+                          <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                          Include source file
+                      </li>
+                      <li>
+                        <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                        Logo transparency
+                      </li>
+                      
+                      
+          
+                      
+          
+                     
+          
+                    </ul>
+                                      
+                  </div>
+                  <div class="pricing-footer mobile-center">
+                    <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="unique-accordion-item">
+            <div class="unique-accordion-header">Small Business</div>
+            <div class="unique-accordion-content">
+              <div class="pricing-table-inner">
+                <div class="pricing-header mobile-center mobile-first">
+                  <div class="price-line"></div>
+                  <h4 class="mobile-price">$120</h4>
+                  <span class="subtitle">USD Per Month</span>
+                  <!-- <div class="pricing"> -->
+                  <!-- <div class="price-wrapper">
+                                <span class="currency">$</span><span class="price">59</span>
+                              </div>
+                              <span class="subtitle">USD Per Month</span>
+                            </div> -->
+                </div>
+                <div class="pricing-body">
+                  <ul class="list-style--1 mobile-ul">
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      3 concept included
+                    </li>
+                    <li>
+                      <i class="">
+                        <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                        Branding kit included
+                    </li>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      Include source file
+                    </li>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      Logo transparency
+                    </li>
+                    <li>
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                      Include 3D mockup
+                    </li>
+        
+                    
+        
+                    
+        
+                    
+                  </ul>
+                </div>
+                <div class="pricing-footer mobile-center">
+                  <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="unique-accordion-item">
+          <div class="unique-accordion-header">Enterprise</div>
+          <div class="unique-accordion-content">
+            <div class="pricing-table-inner">
+              <div class="pricing-header mobile-center mobile-first">
+                <div class="price-line"></div>
+                <h4 class="mobile-price">$300</h4>
+                <span class="subtitle">USD Per Month</span>
+                <!-- <div class="pricing"> -->
+                <!-- <div class="price-wrapper">
+                              <span class="currency">$</span><span class="price">59</span>
+                            </div>
+                            <span class="subtitle">USD Per Month</span>
+                          </div> -->
+              </div>
+              <div class="pricing-body">
+                <ul class="list-style--1 mobile-ul">
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    3 concept included
+                  </li>
+                  <li>
+                    <i class="">
+                      <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px"></i>
+                      Branding kit included
+                  </li>
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Include source file
+                  </li>
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Logo transparency
+                  </li>
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Include social media kit
+                  </li>
+      
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Printable file
+                  </li>
+      
+                  <li>
+                    <img src="assets/images/animated-icons/subscription-section/check-mark.png" alt="Corporate Template" width="15px">
+                    Include 3D mockup
+                  </li>
+      
+                
+                </ul>
+              </div>
+              <div class="pricing-footer mobile-center">
+                <a class="btn-default btn-border" href="https://dashboard.wolvista.com/">Purchase Now</a>
+              </div>
+            </div>
+          </div>
+      </div>
+          </div>
+         
+
+            
+
+          
+    
+        <div id="Tab32" class="customtabcontent1">
+            <!-- <h3>Tab 3 Content</h3>
+            <p>This is the content of Tab 3.</p> -->
+
+            <!-- <div class="unique-accordion-item">
+              <div class="unique-accordion-header">Section 1</div>
+              <div class="unique-accordion-content">
+                  <p>This is the content of section 1.</p>
+              </div>
+          </div> -->
+
+          <!-- <div class="unique-accordion-item">
+            <div class="unique-accordion-header">Section 2</div>
+            <div class="unique-accordion-content">
+                <p>This is the content of section 2.</p>
+            </div>
+        </div> -->
+        
+       
+      <!-- <div class="unique-accordion-item">
+          <div class="unique-accordion-header">Section 5</div>
+          <div class="unique-accordion-content">
+              <p>This is the content of section 3.</p>
+          </div>
+          </div> -->
+
+          <!-- Pricing section for mobile - ends here -->
+        </div></div>
+    
       </div>
       <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -4837,6 +4734,8 @@
     <script src="assets/js/vendor/js.cookie.js"></script>
     <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
     <script src="assets/js/tab.js"></script>
+    <script src="assets/js/tab-mobile.js"></script>
+    <script src="assets/js/mobileAccordion1.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
   </body>

@@ -1,0 +1,102 @@
+/* Style for tabs */
+.customtab1 {
+  overflow: hidden;
+  /* border: 1px solid #ccc; */
+  /* background-color: #f1f1f1; */
+  margin-top: 20px;
+}
+
+.customtab1 button:hover {
+  background-color: #059dff;
+  border-radius: 7px;
+}
+
+/* Style for tab buttons */
+.customtab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 8px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/* Change background color of active tab button */
+.customtab1 button.active {
+  background-color: #059dff;
+  border-radius: 7px;
+}
+
+/* Style for tab content */
+.customtabcontent1 {
+  display: none;
+  padding: 50px 0px;
+  /* border: 1px solid #ccc; */
+  border-top: none;
+}
+
+.customtablink1 {
+  margin-right: 10px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+.unique-accordion {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.unique-accordion-item {
+  background-color: #1e1e1e;
+  /* border: 1px solid #fff; */
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.unique-accordion-header {
+  padding: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.unique-accordion-header:hover {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.unique-accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.unique-accordion-item.active .unique-accordion-content {
+  display: block;
+}
+
+/* desktop and mobile version hide control */
+
+.desktopVersionPrice {
+  display: block;
+}
+
+/* Styles for mobile */
+@media screen and (max-width: 767px) {
+  .desktopVersionPrice {
+    display: none;
+  }
+}
+
+.mobileVersionPrice {
+  display: block;
+}
+
+@media screen and (min-width: 767px) {
+  .mobileVersionPrice {
+    display: none;
+  }
+}
+
+.price-line {
+  margin-top: 20px;
+}
