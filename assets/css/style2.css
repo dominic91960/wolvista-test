@@ -44,3 +44,7 @@
   text-align: left; /* Left-align the text within the paragraph */
 }
 
+.powered-by {
+  text-align: center;
+  font-size: 14px;
+}
