@@ -32,6 +32,7 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
   <main class="page-wrapper">
     <!-- Start Header Area  -->
     <header class="rainbow-header header-default header-transparent header-center-align header-sticky">
@@ -2832,7 +2833,10 @@
                     <a href="privacypolicy.html">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="terms_of_service.html">Terms And Condition </a>
+                    <a href="terms_of_service.html">Terms And Condition</a>
+                  </li>
+                  <li>
+                    <a href="refund_policy.html">Refund Policy</a>
                   </li>
                 </ul>
               </div>
@@ -2885,6 +2889,13 @@
   <script src="assets/js/mobileAccordion1.js"></script>
   <!-- Main JS -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+  </script>
 </body>
 
 </html>
