@@ -59,3 +59,14 @@
   position: fixed;
   z-index: 100;
 }
+
+.discount-off {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.discount-img {
+  align-self: flex-start;
+}
