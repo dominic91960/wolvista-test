@@ -70,3 +70,11 @@
 .discount-img {
   align-self: flex-start;
 }
+
+/* add background image to Services Beyond Packages? section */
+.my-image {
+  background-image: url("../images/bg/bg-image-1.jpg");
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image in the div */
+  background-attachment: fixed; /* Makes the background image fixed */
+}
